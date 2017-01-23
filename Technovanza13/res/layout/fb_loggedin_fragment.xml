@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/fb_welcome"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="10dp"
+                android:textColor="#333"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/fb_name_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Name :"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            <EditText
+                android:id="@+id/fb_name_edit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName" />
+            
+            <TextView
+                android:id="@+id/fb_location_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="City* :"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            <EditText
+                android:id="@+id/fb_location_edit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName" />
+            
+
+            <TextView
+                android:id="@+id/fb_cell_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Cell Number* :"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            <EditText
+                android:id="@+id/fb_contact_edit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="phone" />
+
+            <TextView
+                android:id="@+id/fb_clg_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="College Name* :"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            <EditText
+                android:id="@+id/fb_college_edit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName" />
+
+            <TextView
+                android:id="@+id/fb_branch_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Branch* :"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            <EditText
+                android:id="@+id/fb_branch_edit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName" />
+            <TextView
+                android:id="@+id/fb_email_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="E-mail* :"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            <EditText
+                android:id="@+id/fb_email_edit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName" />
+            
+            
+            <TextView
+                android:id="@+id/fb_technoid_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="TechnoID* :"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            <EditText
+                android:id="@+id/fb_technoid_edit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName" />
+            
+            <TextView
+                android:id="@+id/fb_technopass_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="TechnoPass* :"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            <EditText
+                android:id="@+id/fb_technopass_edit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:password="true" />
+            
+             <Button
+        		android:id="@+id/register_me_button"
+        		android:layout_width="wrap_content"
+        		android:layout_height="wrap_content"
+        		android:layout_alignParentLeft="true"
+        		android:layout_below="@+id/scrollView1"
+        		android:text="Register Me" />
+        </LinearLayout>
+    </ScrollView>
+
+   
+
+</RelativeLayout>

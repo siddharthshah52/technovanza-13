@@ -1,0 +1,15 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+	
+	
+	
+    <item
+        android:id="@+id/action_overflow"
+        android:icon="@drawable/ic_action_overflow"
+        android:title="@string/overflow_menu"
+        android:showAsAction="always">
+    	     <item 
+    	        android:id="@+id/part_channel"
+    	        android:title="@string/irc_quit_string"
+    	        android:showAsAction="never"/>
+	</item>	
+</menu>

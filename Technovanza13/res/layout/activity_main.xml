@@ -1,0 +1,155 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+    <LinearLayout 
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+	<FrameLayout 
+	    android:layout_width="fill_parent"
+	    android:layout_height="200dp">
+	    <ImageButton 
+	    android:id="@+id/imageButton1"
+	    android:layout_width="fill_parent"
+	    android:layout_height="fill_parent"
+	    android:layout_margin="10dp"
+	    android:background="@drawable/button1_selector"/>
+
+	    <TextView
+	        android:id="@+id/textView1"
+	        android:layout_width="fill_parent"
+	        android:layout_height="45dp"
+	        android:textSize="18sp"
+	        android:background="#aa000000"
+	        android:text="Events"
+	        android:layout_gravity="bottom"
+	        android:gravity="center"
+	        android:layout_margin="10dp" />
+	    
+ 
+	</FrameLayout>
+	
+	<LinearLayout
+	    android:layout_width="fill_parent"
+	    android:layout_height="fill_parent"
+	    android:orientation="horizontal"
+	    android:weightSum="1">
+	    <FrameLayout 
+		    android:layout_width="fill_parent"
+		    android:layout_height="200dp"
+		    android:layout_weight="0.5">
+		    <ImageButton 
+			    android:id="@+id/imageButton4"
+			    android:layout_width="fill_parent"
+			    android:layout_height="fill_parent"
+			    android:layout_margin="10dp"
+			    android:background="@drawable/button4_selector"/>
+		    <TextView
+		        android:id="@+id/textView4"
+		        android:layout_width="fill_parent"
+		        android:layout_height="30dp"
+		        android:textSize="15sp"
+		        android:background="#aa000000"
+		        android:text="House Cup"
+		        android:layout_gravity="bottom"
+		        android:gravity="center"
+		        android:layout_margin="10dp" />
+		    
+	 	 </FrameLayout>
+	 	 
+	 	 <FrameLayout 
+		    android:layout_width="fill_parent"
+		    android:layout_height="200dp"
+		    android:layout_weight="0.5">
+		    <ImageButton
+		        android:id="@+id/imageButton5"
+		        android:layout_width="fill_parent"
+		        android:layout_height="fill_parent"
+		        android:layout_margin="10dp"
+		        android:background="@drawable/button5_selector" />
+		    
+		    <TextView
+		        android:id="@+id/textView4"
+		        android:layout_width="fill_parent"
+		        android:layout_height="30dp"
+		        android:textSize="15sp"
+		        android:background="#aa000000"
+		        android:text="Social initiatives"
+		        android:layout_gravity="bottom"
+		        android:gravity="center"
+		        android:layout_margin="10dp" />
+
+		    
+	 	 </FrameLayout>
+	</LinearLayout>
+	<LinearLayout
+	    android:layout_width="fill_parent"
+	    android:layout_height="fill_parent"
+	    android:orientation="horizontal"
+	    android:weightSum="1">
+	    <FrameLayout 
+		    android:layout_width="fill_parent"
+		    android:layout_height="200dp"
+		    android:layout_weight="0.5">
+		    <ImageButton 
+			    android:id="@+id/imageButton2"
+			    android:layout_width="fill_parent"
+			    android:layout_height="fill_parent"
+			    android:layout_margin="10dp"
+			    android:background="@drawable/button2_selector"/>
+		    <TextView
+		        android:id="@+id/textView2"
+		        android:layout_width="fill_parent"
+		        android:layout_height="30dp"
+		        android:textSize="15sp"
+		        android:background="#aa000000"
+		        android:text="Gallery"
+		        android:layout_gravity="bottom"
+		        android:gravity="center"
+		        android:layout_margin="10dp" />
+		    
+	 	 </FrameLayout>
+	 	 
+	    <FrameLayout 
+		    android:layout_width="fill_parent"
+		    android:layout_height="200dp"
+		    android:layout_weight="0.5">
+		    <ImageButton 
+			    android:id="@+id/imageButton3"
+			    android:layout_width="fill_parent"
+			    android:layout_height="fill_parent"
+			    android:layout_margin="10dp"
+			    android:background="@drawable/button3_selector"/>
+		    <TextView
+		        android:id="@+id/textView3"
+		        android:layout_width="fill_parent"
+		        android:layout_height="30dp"
+		        android:textSize="15sp"
+		        android:background="#aa000000"
+		        android:text="Fb page"
+		        android:layout_gravity="bottom"
+		        android:gravity="center"
+		        android:layout_margin="10dp" />
+	 	   	</FrameLayout>
+	 	</LinearLayout>
+	<Button
+	 	    	android:id="@+id/schedule"
+	 	    	android:text="Schedule"
+	 	    	android:background="#f00"
+	 	    	android:visibility="visible"
+			    android:layout_width="match_parent"
+			    android:layout_height="wrap_content"
+			    android:layout_margin="10dp"/>
+	<Button
+	 	    	android:id="@+id/sponsor"
+	 	    	android:text="Check the Sponsors"
+	 	    	android:background="#00f"
+	 	    	android:visibility="visible"
+			    android:layout_width="match_parent"
+			    android:layout_height="wrap_content"
+			    android:layout_margin="10dp"
+			     />   
+	</LinearLayout>
+</ScrollView>

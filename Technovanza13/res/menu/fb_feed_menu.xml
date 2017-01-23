@@ -1,0 +1,9 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+		
+	<item 
+        android:id="@+id/refresh_feed"
+        android:icon="@drawable/ic_action_refresh"
+        android:title="@string/refresh"
+        android:showAsAction="always"/>
+	<item android:id="@+id/technopageitem" android:icon="@drawable/technopage" android:title="@string/visit_techno_page" android:showAsAction="always"></item>	
+</menu>

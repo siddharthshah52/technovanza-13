@@ -1,0 +1,21 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+	
+	
+	
+    <item
+        android:id="@+id/action_overflow"
+        android:icon="@drawable/ic_action_overflow"
+        android:title="@string/overflow_menu"
+        android:showAsAction="always">
+    	    <item 
+    	        android:id="@+id/reg_via_fb"
+    	        android:title="@string/register_via_fb_string"
+    	        android:showAsAction="never"/>
+    	    <item android:id="@+id/netmenu" android:title="@string/techno_net"/>
+    	    <item 
+    	        android:id="@+id/about_us"
+    	        android:title="@string/about"
+    	        android:showAsAction="never"/>
+    	    
+	</item>	
+</menu>

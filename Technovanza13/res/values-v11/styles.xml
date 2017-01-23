@@ -1,0 +1,31 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--
+        Base application theme for API 11+. This theme completely replaces
+        AppBaseTheme from res/values/styles.xml on API 11+ devices.
+    -->
+    <style name="AppBaseTheme" parent="android:Theme.Holo.Light">
+        <!-- API 11 theme customizations can go here. -->
+    </style>
+<!-- This is our main ActionBarSherlock theme -->
+    <style name="Theme.Styled" parent="Theme.Sherlock">
+        <item name="actionBarStyle">@style/Widget.Styled.ActionBar</item>
+        <item name="android:actionBarStyle">@style/Widget.Styled.ActionBar</item>
+    </style><!-- This is our ViewPagerIndicator theme. We inherit from the ABS theme -->
+    <style name="Theme.VPI" parent="Theme.Styled">
+       <item name="vpiIconPageIndicatorStyle">@style/Widget.IconPageIndicator</item>
+        <item name="vpiTabPageIndicatorStyle">@style/Widget.TabPageIndicator</item>
+    </style>    
+    <!-- "Implementation" of our ABS custom theme -->
+    <style name="Widget.Styled.ActionBar" parent="Widget.Sherlock.Light.ActionBar.Solid.Inverse">
+        <item name="titleTextStyle">@style/TitleText</item>
+        <item name="android:titleTextStyle">@style/TitleText</item>
+    </style>
+     
+    <!-- More customizations for ABS -->
+     <style name="TitleText" >
+        <item name="android:textColor">@android:color/darker_gray</item>
+        <item name="android:textSize">17dip</item>
+        <item name="android:text">@string/app_name</item>
+    </style>
+</resources>
